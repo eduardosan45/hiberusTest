@@ -22,7 +22,6 @@ public class SuperHeroServiceLN {
 	
 	public Response getSuperHeros() {
 		ErrorMessage errorMessage = null;
-		Integer.parseInt("fsdf");
 		List<SuperHero> superHeros = superHeroService.getSuperHeros();
 		boolean result = true;
 		
